@@ -12,6 +12,4 @@ A simple **Admin Dashboard** layout with a **light/dark mode toggle** implemente
 
 ---
 
-![Light Mode](screenshot-light.png)
-![Dark Mode](screenshot-dark.png)
 
