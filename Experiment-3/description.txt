@@ -1,0 +1,18 @@
+Create a web-based admin dashboard page that includes the following sections:
+
+Header: Contains the dashboard title and a theme switch (light/dark).
+
+Sidebar: Includes navigation links such as Home, Users, and Settings.
+
+Main Content Area: Placeholder for data visualization, reports, or welcome messages.
+
+Footer: Displays footer text or copyright.
+
+The page should:
+
+Use CSS Grid to arrange and align these sections into a clean, professional layout.
+
+Implement theme switching functionality so that the entire dashboard can switch between light mode and dark mode.
+
+The switch should update background colors, text colors, and other style elements clearly, without requiring page reload.
+

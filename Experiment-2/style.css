@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(200, 193, 193, 0.948);
+    
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+
+}
+
+button{
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 350px;
+    justify-content: center;
+    border-radius: 15px;
+
+
+}
+
+.card{
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.dep{
+    color: white;
+    background-color: rgb(26, 180, 26);
+
+}
+
+.with{
+    color: white;
+    background-color: rgb(233, 59, 59);
+}
+
+h1{
+    color: rgb(17, 195, 17);
+}
