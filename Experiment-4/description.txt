@@ -1,0 +1,39 @@
+1. FEATURE: Character Counting
+The counter updates in real-time as users type in the textarea.
+It counts all characters including spaces, numbers, symbols, and newlines.
+Implemented using JavaScript oninput event.
+
+2. PAGE STRUCTURE (HTML Overview)
+The HTML structure consists of:
+A container <div> that wraps the textarea and counter display.
+A <textarea> for user input.
+A <div> showing "Characters:" followed by a <span> that displays the number.
+
+3. CSS LAYOUT
+Textarea spans full width with padding for readability.
+Character count (#charcount) is styled bold.
+Responsive layout: textarea adjusts automatically with screen width.
+Container uses full viewport height (100vh) for a centered layout.
+
+4. COLOR SCHEME & STYLING NOTES
+Default Light Mode:
+Background: White (#fff)
+Border: Light gray around textarea
+Text: Black
+Styling Notes:
+width: 100% → Ensures responsiveness.
+padding → Improves text readability.
+Bold character count for clear visibility.
+Rounded corners (border-radius) for a neat look.
+
+5. JAVASCRIPT CONCEPTS USED
+DOM Manipulation:
+document.getElementById() → Accesses textarea and counter span.
+Event Handling:
+oninput → Fires whenever user types, deletes, or pastes text.
+String Property:
+.value.length → Returns total number of characters in textarea.
+Updating Content:
+.textContent → Updates the <span> dynamically with new count.
+Real-time Interactivity:
+Updates instantly without requiring refresh or submission.
