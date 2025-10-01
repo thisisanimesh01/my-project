@@ -1,0 +1,15 @@
+Nested Documents in an E-Commerce Catalog
+Goal
+to represent product variations (color, size, and stock) within a single Product document by modeling a product catalog in MongoDB using nested documents, which are arrays of sub-objects.
+
+Summary of Implementation
+This is a Mongoose-powered Node.js/Express application.
+
+Important Points for Implementation:
+Schema Design: The variants nested array field is an essential component of the Mongoose Product schema.
+
+Data Seeding: Sample data is added to the database via a POST /api/products/seed route.
+
+Filtering: A top-level field (category) can be filtered using a GET /api/products/filter route.
+
+Nested Querying: A MongoDB Aggregation Pipeline (more especially, the $filter operator) is used in a GET /api/products/variants/:color route to retrieve a product document, returning only the variant objects that have the requested color.
