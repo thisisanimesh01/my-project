@@ -39,14 +39,11 @@ Server runs at http://localhost:5001
 ---
 
 ## Screenshots
-
-| Feature | Screenshot |
-|---------|------------|
-| Seed Products | ![Seed](.image1.png) |
-| Filter Category | ![Filter](.image2.png) |
-| Variants by Color | ![Variants](.image3.png) |
-| Additional View 1 | ![Extra](image4.png) |
-| Additional View 2 | ![Extra](image5.png) |
+![Seed](image1.png) |
+![Filter](image2.png) |
+![Variants](image3.png) |
+![Extra](image4.png) |
+![Extra](image5.png) |
 
 
 
