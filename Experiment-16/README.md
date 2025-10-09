@@ -75,4 +75,4 @@ To implement a **secure banking API** that handles:
 ---
 
 ## 📁 OUTPUTS
-![Demo Screenshot]([https://github.com/username//blob/main/demo.png](https://github.com/thisisanimesh01/my-project/blob/main/Experiment-16/Transfer-money.png))
+![Demo Screenshot](https://github.com/thisisanimesh01/my-project/blob/main/Experiment-16/Transfer-money.png)
